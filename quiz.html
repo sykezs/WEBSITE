@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  
+  <link rel="icon" href="images/favicon.png" type="image/gif" />
+  <title> Quiz </title>
+
+  
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+ 
+  <link href="css/style.css" rel="stylesheet" />
+ 
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+ 
+
+ <header class="header_section">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg custom_nav-container">
+      <a href="index.html" class="navbar-brand">
+        <span>The World</span>
+      </a>
+      <div class="" id="">
+        <div class="custom_menu-btn">
+          <button onclick="openNav()">
+          <span class="s-1"></span>
+          <span class="s-2"></span>
+          <span class="s-3"></span>
+        </button>
+        <div class="overlay" id="myNav">
+          <div class="overlay-content">
+            <a href="index.html">Home</a>
+              <a href="contact.html">Contact Me</a>
+              <a href="thoughts.html">My thoughts</a>
+              <a href="quiz.html">Quiz</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="contact_section layout_padding">
+  <div class="contact_bg_box">
+    <img src="images/white.jpg" alt="">
+  </div>
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2>Now i want you to answer some questions<br>about the information on the site</h2>
+    </div> 
+    <h1 class="quizzz">Quiz</h1>
+    <audio id="soundAlert" src="click.mp3" preload="auto"></audio>
+
+    <section class="contact_section layout_padding">
+    <form id="quizForm">
+      <h3 class="quizzo">Which innovation has significantly impacted various industries by enabling machines to learn from experience?</h3>
+      <input type="radio" name="q1" value="AI (Artificial Intelligence)">  AI (Artificial Intelligence)<br>
+      <input type="radio" name="q1" value="Blockchain"> Blockchain<br>
+      <input type="radio" name="q1" value="Biotechnology"> Biotechnology<br>
+      
+      <h3 class="quizzo">What did the COVID-19 pandemic emphasize regarding global healthcare systems?</h3>
+      <input type="radio" name="q2" value="Their robustness and adaptability">  Their robustness and adaptability<br>
+      <input type="radio" name="q2" value="Their vulnerabilities and the importance of disease prevention"> Their vulnerabilities and the importance of disease prevention<br>
+      <input type="radio" name="q2" value="Reduced need for global cooperation in health crises"> Reduced need for global cooperation in health crises<br>
+      
+      <h3 class="quizzo">What challenges and benefits arise from the increasing urban population?</h3>
+      <input type="radio" name="q3" value="Decreased cultural exchange"> Decreased cultural exchange<br>
+      <input type="radio" name="q3" value="Reduced innovation">  Reduced innovation<br>
+      <input type="radio" name="q3" value="Infrastructure challenges and fostering innovation and cultural exchange">  Infrastructure challenges and fostering innovation and cultural exchange<br>
+      
+      <br>
+      
+      <input type="button" value="Submit"  id="submitButton" onclick="submitQuiz()">
+    
+    </form>
+  
+    <div id="result"></div>
+    </section>
+    
+  </div>
+</section>
+
+<footer class="footer_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 footer-col">
+        <div class="footer_content">
+          
+          
+        </div>
+      </div>
+      <div class="col-md-4 footer-col">
+        <div class="footer_detail">
+          <a href="" class="footer-logo">
+            The World
+          </a>
+          <p>This site is my Final Exam Project. Subject: Front-End - WEB Technologies. Trimester - 4th. Astana IT University. Here's my socials below.
+
+          </p>
+          <div class="footer_social">
+            <a href="https://www.facebook.com/dias.bro"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/sykezsosu"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://web.telegram.org/k/#@sykezz"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/sykezs/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+           
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="footer-info">
+      <p>&copy; <span id="displayYear"></span> Aidyngaliyev Dias
+      </p>
+    </div>
+  </div>
+</footer>
+
+  
+
+ 
+  <script src="js/jquery-3.4.1.min.js"></script>
+  
+  <script src="js/bootstrap.js"></script>
+  
+  <script src="js/custom.js"></script>
+  
+
+</body>
+
+</html>
